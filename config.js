@@ -34,7 +34,7 @@ const config = {
     INSTALL_COMMAND: "npm i discord-player",
     HOME_LOGO: {
         TYPE: "TEXT", // "IMAGE" | "TEXT"
-        VALUE: "Player"
+        VALUE: "Discord Player"
     },
     DESCRIPTION: {
         TITLE: "About",
