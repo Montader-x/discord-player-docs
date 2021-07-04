@@ -21,7 +21,7 @@ const config = {
             },
             {
                 label: "Discord",
-                path: "https://http://androz2091.fr/discord",
+                path: "https://androz2091.fr/discord",
                 newPage: true
             },
             {
