@@ -1,13 +1,14 @@
 import DocsManager from "./DocsManager";
 
-const blacklisted = new Set(["docs"]);
+const blacklisted = new Set(["docs", "gh-pages"]);
 
 export default new DocsManager({
     id: "main",
     name: "Main",
-    global: "Yukitoki",
-    repo: "DevSnowflake/yukitoki-docs",
-    defaultTag: "main",
+    global: "Player",
+    repo: "Androz2091/discord-player",
+    defaultTag: "master",
     docsBranch: "docs",
-    branchFilter: (branch) => !blacklisted.has(branch)
+    branchFilter: (branch) => !blacklisted.has(branch),
+    tagFilter: () => false
 });
