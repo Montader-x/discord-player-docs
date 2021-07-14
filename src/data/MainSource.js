@@ -9,6 +9,6 @@ export default new DocsManager({
     repo: "Androz2091/discord-player",
     defaultTag: "master",
     docsBranch: "docs",
-    branchFilter: (branch) => !blacklisted.has(branch),
+    branchFilter: (branch) => !blacklisted.has(branch) && !branch.startsWith("dependabot/"),
     tagFilter: () => false
 });
