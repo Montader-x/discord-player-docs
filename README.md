@@ -1,15 +1,3 @@
-# Yukitoki
-A customizable website to view docs for your projects.
+Discord Player docs site
 
-# Built with
-- svelte
-- tailwindcss
-
-# Features
-- Responsive
-- Light & Dark mode
-- Custom 404 page
-- Easy to setup
-
-# Live Preview
-**[https://yukitoki.netlify.app](https://yukitoki.netlify.app)**
+[![](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DevAndromeda/discord-player-docs)
